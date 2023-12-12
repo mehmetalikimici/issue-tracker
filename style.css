@@ -1,0 +1,67 @@
+.container small{
+    font-size: 15px;
+}
+
+.container h1{
+    margin: 20px auto;
+    font-size: 40px;
+}
+
+.container .jumbotron{
+    margin: 50px auto;
+    padding: 50px 30px;
+    background-color: rgb(236, 235, 236);
+    border-radius: 10px;
+}
+
+#issueInputForm{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-control{
+    font-size: 20px;
+}
+
+.jumbotron h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#issuesList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#issuesList .well{
+    background-color: rgb(236, 235, 236);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+#issuesList .well h6{
+    font-size: 12px;
+}
+
+#issuesList .well .status-info{
+    background-color: rgb(80,184,215);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+#opt-l{
+    background-color: rgba(255, 255, 0, 0.3);
+}
+#opt-m{
+    background-color: rgba(255, 166, 0, 0.3);
+}
+#opt-h{
+    background-color: rgba(255, 0, 0, 0.3);
+}
